@@ -1,6 +1,6 @@
 const socialsBtn = document.querySelector("#socials-button");
-const socials = document.querySelector("#socials");
+const footer = document.querySelector("footer");
 
 socialsBtn.addEventListener("click", () => {
-  socials.scrollIntoView({ behavior: "smooth" });
+  footer.scrollIntoView({ behavior: "smooth" });
 });
