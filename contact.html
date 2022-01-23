@@ -12,21 +12,22 @@
 
 </head>
 <body>
-    <header>Dead Flowers Club</header>
-    <h4>The easiest and quickest way to contact me is via Instagram DMs! No matter your question you will get the quickest feedback there! If that is not possible for you, you can use the form below!</h4>
-    <form action="mailto:deadflowersclub@gmail.com" method="get" enctype="text/plain">
-        <p>Name: <input type="text" name="name" placeholder="Name"/></p>
-        <p>Email: <input type="text" name="email" placeholder="Email"/></p>
-        <p>Write your question or feedback:
-            <br />
-            <textarea name="feedback" rows="12" cols="35" placeholder="Your question or feedback!"></textarea>
-            <br>
-            <p><input type="submit" name="submit" value="Submit"/>
-            <input type="reset" name="reset" value="Reset"/>
-        </p>
-        </p>
+    <header><a class="home" href="index.html">Dead Flowers Club</a></header>
+    <div class="contact"><h4>The easiest and quickest way to contact me is via Instagram DMs! No matter your question you will get the quickest feedback there! 
+        If that is not possible for you, you can send me a mail <a href="mailto:deadflowersclub@gmail.com">here!</a></h4>
+    </div>
+    <form action="https://formsubmit.co/deadflowersclub@gmail.com" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname">
+        <label for="email">Email</label>
+        <input type="text" id="email">
+        <label for="name">Comments</label>
+        <input type="text" id="comments">
+
     </form>
-    <footer>
+        <footer>
         <p>Dead Flowers Club 2022</p>
         <a href="#" class="fab fa-tiktok"></a>
         <a href="#" class=" fab fa-instagram"></a>
