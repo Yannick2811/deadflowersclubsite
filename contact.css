@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(2.8rem, 4vw, 5rem);
+  font-size: clamp(2rem, 4vw, 5rem);
   background-image: radial-gradient(rgba(45, 2, 11, 0.8), black 100%);
   margin: 0 0 1em 0;
 }
@@ -70,4 +70,21 @@ input {
 
 textarea {
   margin-top: 0.3em;
+}
+
+#submit {
+  background-color: black;
+  color: #dbdbdb;
+  border-color: #dbdbdb;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.3rem 0.8rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  h4 {
+    font-size: 1rem;
+    margin: 2em;
+  }
 }
