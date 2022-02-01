@@ -12,9 +12,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: clamp(1.5rem, 3.5vw, 4rem);
+  font-size: clamp(1.5rem, 3.5vw, 3.5rem);
   background-image: radial-gradient(rgba(45, 2, 11, 0.8), black 100%);
-  /* padding: 0 2rem; */
+  padding: 0 2rem;
   margin-bottom: 4rem;
 }
 
@@ -71,6 +71,7 @@ img {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 8px;
+  border: solid 2px #dbdbdb;
 }
 
 .product {
